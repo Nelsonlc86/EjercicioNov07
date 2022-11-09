@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'storm';
+    src: url("../fonts/Storm\ Gust.otf");
+}
+
+.font_storm {
+    font-family: "storm";
+}
+
+@font-face {
+    font-family: 'hiro';
+    src: url("../fonts/HIROMISAKE.ttf");
+}
+
+.font_hiro {
+    font-family: "hiro";
+}
+
+body {
+    background-color: rgb(76, 77, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  h1 {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  h2{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
